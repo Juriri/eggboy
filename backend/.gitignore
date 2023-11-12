@@ -11,8 +11,8 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
-*.war
+#*.jar
+#*.war
 *.nar
 *.ear
 *.zip
@@ -30,7 +30,7 @@ replay_pid*
 .apt_generated
 .classpath
 .factorypath
-.project
+#.project
 .settings
 .springBeans
 .sts4-cache
