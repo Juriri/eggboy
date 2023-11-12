@@ -1,0 +1,55 @@
+/* Footer.css */
+.footer {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    /*background-color: #f8f9fa;
+    padding: 30px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;*/
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content {
+    max-width: 300px;
+    text-align: center;
+}
+
+.footer-content h4 {
+    font-size: 18px; /* 헤더 크기 키우기 */
+    color: #007bff;
+    margin-bottom: 10px; /* 아래 여백 추가 */
+}
+
+.footer-content p {
+    font-size: 14px; /* 문단 크기 키우기 */
+    color: #6c757d;
+    margin-bottom: 10px; /* 아래 여백 추가 */
+}
+
+.footer-content a {
+    font-size: 16px; /* 링크 크기 키우기 */
+    color: #007bff;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    color: #6c757d;
+    bottom: 0;
+    right: 60px;
+    font-size: 12px;
+}

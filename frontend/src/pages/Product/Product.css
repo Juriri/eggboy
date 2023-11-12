@@ -1,0 +1,49 @@
+.sell-container {
+    padding:40px 150px;
+    margin: 0 20px;
+    border-radius: 5px;
+}
+.feature-heading {
+    margin: 30px 0;
+}
+.feature-heading .main-heading {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+}
+
+.feature-heading .sub-heading {
+    font-size: 1.3em;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+}
+
+.sell-nav {
+    display: flex;
+    margin-top: 20px;
+}
+
+.sell-nav-item {
+    flex: 1;
+    text-align: center;
+    border: 1px solid #eae9e9;
+    letter-spacing: 2px;
+}
+
+
+.header-link span{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #343a40;
+}
+
+/*.header-link:hover {
+    opacity: 0.4;
+}*/
+
+.header-link.active {
+    border-bottom: 2px solid rgb(163, 168, 175);
+    box-shadow: 0 0 5px #007bff;
+}
