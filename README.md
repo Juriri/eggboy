@@ -12,20 +12,16 @@
 # ☑️  메인화면 (PC 버전)
 
 > 메인
->
 > ![image](https://github.com/Juriri/eggboy/assets/29352771/0df6d1ea-2f2d-44fc-9880-3cbc28451595)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/983ad7ca-80be-47c2-a43d-96a2d5b212ea/064ea707-93e1-42a6-949a-9b477ee47cf9/Untitled.png)
 
 > **판매 도매 품목 리스트  [계란 상품 살펴보기]**
-> 
+![image](https://github.com/Juriri/eggboy/assets/29352771/659f60ec-2b73-4e3a-bb5b-1a0890aaa2bd)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/983ad7ca-80be-47c2-a43d-96a2d5b212ea/f5fb303b-ebe6-4a65-a077-51f4f325ee31/Untitled.png)
 
 > **대표 아이콘**
 > 
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/983ad7ca-80be-47c2-a43d-96a2d5b212ea/e30a3e83-1004-48ad-8d5e-6b126ec08dab/Untitled.png)
+![image](https://github.com/Juriri/eggboy/assets/29352771/976bdc48-773f-472d-8dff-1e8ecb9e6e1d)
 
 # ☑️ 기능 소개, 기술 소개
 
