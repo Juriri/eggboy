@@ -1,16 +1,22 @@
 /* Footer.css */
+/*#wrapper{
+    height : auto;
+    min-height: 100%;
+}*/
+
 .footer {
-    background-color: #f8f9fa;
+/*    background-color: #5d7562;
     padding: 10px 0;
-    position: absolute;
+    bottom: 0;
+    position : relative;
+    transform : translateY(-100%);
+    width: 100%;
+    min-height: 100%;*/
+    background-color: #5d7562;
+    padding: 30px 30px;
+    position: relative;
     bottom: 0;
     width: 100%;
-
-    /*background-color: #f8f9fa;
-    padding: 30px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;*/
 }
 
 .footer-container {
@@ -24,20 +30,23 @@
 }
 
 .footer-content h4 {
+    color: white;
     font-size: 18px; /* 헤더 크기 키우기 */
-    color: #007bff;
+    /*color: #386b3f;*/
     margin-bottom: 10px; /* 아래 여백 추가 */
 }
 
 .footer-content p {
+    color: white;
     font-size: 14px; /* 문단 크기 키우기 */
-    color: #6c757d;
+    /*color: #6c757d;*/
     margin-bottom: 10px; /* 아래 여백 추가 */
 }
 
 .footer-content a {
+    color: white;
     font-size: 16px; /* 링크 크기 키우기 */
-    color: #007bff;
+    /*color: #386b3f;*/
     text-decoration: none;
     display: block;
     margin-top: 10px;
@@ -52,4 +61,9 @@
     bottom: 0;
     right: 60px;
     font-size: 12px;
+}
+
+.sticky-footer {
+    position: fixed;
+    bottom: 0;
 }

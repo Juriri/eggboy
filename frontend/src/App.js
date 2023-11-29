@@ -1,8 +1,7 @@
 // App.js
 import React from 'react';
-//import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Main from './components/Main/Main';
+import Main from './pages/Main/Main';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 
@@ -20,7 +19,7 @@ function App() {
                     <Route path="/" element={<Main />} />
 
                     {/* AllProduct page */}
-                    <Route path="/products" element={<AllProduct />} />
+                    {/*<Route path="/products" element={<AllProduct />} />*/}
                     <Route path="/products/*" element={<AllProduct />} />
                 </Routes>
 

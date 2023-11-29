@@ -1,55 +1,67 @@
 /*// Header.css*/
-.header-container {
+
+.header.container {
+    width: 100%;
+    overflow: hidden;
+}
+.navbar-nav {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 0 20px;
-    margin: 0 20px;
-    color: rgba(241, 241, 109, 0.54);
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
-.header-container .navbar-brand img {
-    width: 100px; /*홈 아이콘 조절*/
-    height: 65px;
+.top-link img {
+    width: 180px; /*홈 아이콘 조절*/
+    height: 60px;
+    margin-left: 40px;
 }
 
-.navbar-nav {
-    margin: 0 15px; /* 메뉴 간격 조절 */
+.top-link img:hover {
+    scale: 1.1;
 }
 
 .navbar-nav .nav-item {
-    margin: auto 10px; /* 메뉴 간격 조절 */
+    margin: 0 40px; /* 메뉴 간격 조절 */
+    align-items: center;
+    justify-content: center;
 }
 
 .navbar-nav .nav-item a{
-    font-size: 20px;
+    font-size: 17px;
 }
 
 
 .dropdown-item span {
     font-size: 18px;
+    width: 200px;
 }
 
+li .dropdown-item {
+    justify-content: space-between;
+}
 
 li .dropdown-item:hover {
     background-color: transparent;
-    opacity: 0.4;
-}
-
-li .dropdown-item.active {
-    color: #007bff;
-    background-color: #ffffff;
-}
-
-.navbar-nav .nav-link {
-    color: #343a40;
     font-weight: bold;
 }
 
-.navbar-nav .nav-link:hover {
-    color: #007bff; /* 호버 시 메뉴 텍스트 색상 설정 */
+li .dropdown-item.active {
+    color: black;
+    background-color: #ffffff;
 }
+
+.navbar-nav .top-link {
+    color: #3f464d;
+
+}
+
+.navbar-nav .top-link:hover,
+.navbar-nav .top-link.active {
+    color: #386b3f !important; /* 호버 시 메뉴 텍스트 색상 설정 */
+    font-weight: bold;
+}
+
 
 .navbar-expand-lg {
     border-bottom: 1px solid #ccc;
