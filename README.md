@@ -13,8 +13,7 @@
 
 > 메인
 >
-> ![Uploading image.png…]()
-
+> ![image](https://github.com/Juriri/eggboy/assets/29352771/0df6d1ea-2f2d-44fc-9880-3cbc28451595)
 
 ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/983ad7ca-80be-47c2-a43d-96a2d5b212ea/064ea707-93e1-42a6-949a-9b477ee47cf9/Untitled.png)
 
